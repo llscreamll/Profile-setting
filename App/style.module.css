@@ -1,0 +1,114 @@
+.header {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg viewBox='0 0 1481 470' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0H1481V470C1114.99 -38.4972 367.553 634.454 0 401.971V0Z' fill='url(%23paint0_linear)'/%3e%3cdefs%3e%3clinearGradient id='paint0_linear' x1='1481' y1='235.001' x2='-15.6763' y2='235.001' gradientUnits='userSpaceOnUse'%3e%3cstop stop-color='%232196F3'/%3e%3cstop offset='1' stop-color='%231EC3AF'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    position: absolute;
+    width: 1481px;
+    height: 470px;
+    z-index: -999;
+    top: -8px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.userName{
+    display: flex;
+    justify-content: right;
+}
+
+.LineContainer{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1183px;
+    top: 10px;
+}
+.Line {
+
+    left: 26px;
+    position: relative;
+    width: 39px;
+    top: 28px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+
+}
+.icons {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1252px;
+    top: 20px;
+}
+.maskGroupMain img{
+    position: absolute;
+    left: 84.5%;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+}
+.nameUsers{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    width: 79px;
+    position: absolute;
+    left: 1312px;
+    height: 19px;
+    right: 49px;
+    top: 20px;
+    color: #FFFFFF;
+}
+.noneIcon{
+    color: white;
+    left: 1179px;
+    top: 25px;
+    position: absolute;
+
+}
+@media screen and (max-width: 600px) {
+    .header {
+        width: 320px;
+        height: 199px;
+        top: 0px;
+        left: 0px;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='320' height='199' viewBox='0 0 320 199' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0H320V199C240.916 -16.2999 79.4173 268.631 0 170.196V0Z' fill='url(%23paint0_linear)'/%3e%3cdefs%3e%3clinearGradient id='paint0_linear' x1='320' y1='99.5006' x2='-3.38719' y2='99.5006' gradientUnits='userSpaceOnUse'%3e%3cstop stop-color='%232196F3'/%3e%3cstop offset='1' stop-color='%231EC3AF'/%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e ");
+    }
+    .maskGroupMain img{
+        width: 24px;
+        height: 24px;
+        left: 286px;
+        top: 22px;
+    }
+    .LineContainer{
+        position: absolute;
+        left: 276px;
+        width: 10px;
+
+    }
+    .Line {
+        left: -15px;
+        position: relative;
+        width: 24px;
+        top: 23px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(90deg);
+
+    }
+    .noneIcon{
+        left: 242px;
+        top: 22px;
+    }
+    .noneIcon img{
+        width: 19px;
+        height: 24px;
+    }
+
+    .nameUsers{
+       display: none;
+    }
+}

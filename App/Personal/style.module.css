@@ -1,0 +1,139 @@
+.profile {
+    width: 1307px;
+    position: absolute;
+    height: 128px;
+    left: 5%;
+    right: -0.08%;
+    top: 163px;
+    background: linear-gradient(270deg, #1A78C2 0%, #1A78C2 101.06%);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    display: flex;
+}
+.userImages {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 30px;
+    top: 24px;
+}
+.userName {
+    position: absolute;
+    width: 619px;
+    height: 41px;
+    left: 152px;
+    top: 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+.edit p {
+        margin-top: 9px;
+}
+.edit button {
+    position: absolute;
+    width: 119px;
+    height: 19px;
+    right: 53px;
+    top: 55px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.context {
+    position: absolute;
+    width: 181px;
+    height: 25px;
+    right: 1124px;
+    top: -100px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.contextMenu {
+    position: absolute;
+    width: 181px;
+    height: 19px;
+    right: 1124px;
+    top: -61px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+
+}
+@media screen and (max-width: 600px) {
+    .profile {
+        width: 300px;
+        height: 71px;
+        left: 10px;
+        top: 113px;
+    }
+    .userImages {
+        width: 40px;
+        height: 40px;
+        left: 10px;
+        top: 16px;
+    }
+    .userImages img {
+        width: 40px;
+        height: 40px;
+    }
+    .userName {
+        width: 196px;
+        height: 19px;
+        left: 60px;
+        top: 12px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .edit button {
+        top: 32px;
+        width: 0px;
+        height: 0px;
+    }
+    .edit p {
+        width: 0px;
+        display: none;
+    }
+    .context {
+        top: -70px;
+        left: 0;
+        width: 171px;
+        height: 19px;
+        right: 154px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .contextMenu {
+        left: 0;
+        top: -40px;
+        width: 200px;
+        height: 16px;
+        right: 154px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+
+
